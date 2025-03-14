@@ -18,3 +18,19 @@ described by a text prompt, providing a free lunch for synthesizing optical illu
 # Method overview
 ![](figures/method_oveview.jpg "method_overview")
 <p class="text-justify">Established on the pre-trained Latent Diffusion Model (LDM), PTDiffusion is composed of three diffusion trajectories. The inversion trajectory inverts the reference image into the LDM Gaussian noise space. The reconstruction trajectory recovers the reference image from the inverted noise embedding. The sampling trajectory samples the final illusion image from random noise guided by the text prompt. The reconstruction and sampling trajectory are bridged by our proposed phase transfer module, which dynamically transplants diffusion features’ phase spectra from the reconstruction trajectory into the sampling trajectory to smoothly blend the source image structure with the textual semantics in the LDM feature space. </p>
+
+# Environment
+We use Anaconda environment with python 3.8 and pytorch 2.0, which can be built with the following commands: <br />
+First, create a new conda virtual environment: <br>
+<pre><code>
+conda create -n PTDiffusion python=3.8
+</code></pre>
+Then, install pytorch using conda: <br>
+<pre><code>
+conda activate PTDiffusion
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+</code></pre>
+Lastly, install the required packages in the requirements.txt:
+<pre><code>
+pip install -r requirements.txt
+</code></pre>
