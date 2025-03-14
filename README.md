@@ -11,6 +11,6 @@ described by a text prompt, providing a free lunch for synthesizing optical illu
 <p class="text-justify">
 			(1) We pioneer generating optical illusion hidden pictures from the perspective of text-guided I2I translation. <br><br>
 			(2) We propose a concise and elegant method that realizes deep fusion of image structure and text semantics via dynamic phase manipulation in the LDM feature space, producing contextually harmonious illusion pictures. <br><br>
-			(3) We propose asynchronous phase transfer to enable flexible control over the degree of hidden image discernibility.
-      (4) Our method dispenses with any training and optimization process, providing a free lunch for synthesizing illusion pictures using off-the-shelf T2I diffusion model.
+			(3) We propose asynchronous phase transfer to enable flexible control over the degree of hidden image discernibility. <br><br>
+                        (4) Our method dispenses with any training and optimization process, providing a free lunch for synthesizing illusion pictures using off-the-shelf T2I diffusion model.
 </p>
