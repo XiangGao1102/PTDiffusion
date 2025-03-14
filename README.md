@@ -39,3 +39,16 @@ pip install -r requirements.txt
 Our method requires the pre-trained Stable Diffusion model and the CLIP text encoder. <br />
 1. Download the Stable Diffusion v1.5 model checkpoint file **v1-5-pruned-emaonly.ckpt** and put it right into the **"models"** folder. It can be downloaded from [Hugging Face](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main), or from [GoogleDrive](https://drive.google.com/file/d/1qv_imy7tyjyuq0BSo53KBvfFGEpDe-GA/view?usp=sharing). <br />
 2. Download the **clip-vit-large-patch14** and put it right into the **"openai"** folder. It can be downloaded from [here](https://huggingface.co/openai/clip-vit-large-patch14) with the demo code, or manually downloaded file by file from [here](https://huggingface.co/openai/clip-vit-large-patch14/tree/main). We also provide a [DoogleDrive link](https://drive.google.com/file/d/1lgM9uL9CY_LS7eHU77pG5LhVpt99KnpQ/view?usp=sharing) to download it for convenience.
+
+# Run the code
+Our model is training-free, you can translate a given reference image into an optical illusion hidden picture by directly running the following inference script:
+<pre><code>
+python inference.py
+</code></pre>
+In the inference script **inference.py**, you can manually set the target text prompt to describe the scene content of the generated illusion image, as well as the image path of the reference image. 
+
+# Test the demo
+We also provide a jupyter notebook demo code for ease of visualization, please open it by running the following command:
+<pre><code>
+jupyter notebook demo.ipynb
+</code></pre>
