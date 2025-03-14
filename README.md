@@ -5,7 +5,7 @@
 <div style="text-align:justify">Taking the first image on the left as an example, what do you see at your first glance? A painting of a path through a forest (zoom
 in for a detailed look), or a human face (zoom out for a more global view)? Based on the off-the-shelf text-to-image diffusion model,
 we contribute a plug-and-play method that naturally dissolves a reference image (shown in the bottom-right corner) into arbitrary scenes
-described by a text prompt, providing a free lunch for synthesizing optical illusion hidden pictures using diffusion model. Better viewed with zoom-in.
+described by a text prompt, providing a free lunch for synthesizing optical illusion hidden pictures using diffusion model. Better viewed with zoom-in. Abuntant results of our generated optical illusion hidden pictures are displayed in our [paper](https://arxiv.org/abs/2503.06186).
 </div>
 
 # Contributions
