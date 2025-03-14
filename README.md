@@ -45,7 +45,7 @@ Our model is training-free, you can translate a given reference image into an op
 <pre><code>
 python inference.py
 </code></pre>
-In the inference script **inference.py**, you can manually set the target text prompt to describe the scene content of the generated illusion image, as well as the image path of the reference image. 
+In the inference script **inference.py**, you can manually set the image path of the reference image, as well as the target text prompt to describe the scene content of the generated illusion image.
 
 # Test the demo
 We also provide a jupyter notebook demo code for ease of visualization, please open it by running the following command:
