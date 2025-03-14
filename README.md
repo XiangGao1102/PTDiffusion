@@ -45,7 +45,7 @@ Our model is training-free, you can translate a given reference image into an op
 <pre><code>
 python inference.py
 </code></pre>
-In the inference script **inference.py**, you can manually set the image path of the reference image, as well as the target text prompt to describe the scene content of the generated illusion image. The parameters "direct_transfer_steps", "decayed_transfer_steps", "async_ahead_steps", "exponent" in the <strong>sample_illusion_image</strong> function 
+In the inference script **inference.py**, you can manually set the image path of the reference image, as well as the target text prompt to describe the scene content of the generated illusion image. The parameters "direct_transfer_steps", "decayed_transfer_steps", "async_ahead_steps", "exponent" in the <strong>sample_illusion_image</strong> function, as well as the 
 
 # Test the demo
 We also provide a jupyter notebook demo code for ease of visualization, please open it by running the following command:
