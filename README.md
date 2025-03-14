@@ -7,7 +7,7 @@ in for a detailed look), or a human face (zoom out for a more global view)? Base
 we contribute a plug-and-play method that naturally dissolves a reference image (shown in the bottom-right corner) into arbitrary scenes
 described by a text prompt, providing a free lunch for synthesizing optical illusion hidden pictures using diffusion model. Better viewed with zoom-in.</p>
 
-# <center>Contributions</center>
+# Contributions
 <ol>
 <li>We pioneer generating optical illusion hidden pictures from the perspective of text-guided I2I translation.</li>
 <li>We propose a concise and elegant method that realizes deep fusion of image structure and text semantics via dynamic phase manipulation in the LDM feature space, producing contextually harmonious illusion pictures.</li>
