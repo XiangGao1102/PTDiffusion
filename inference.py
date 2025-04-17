@@ -32,6 +32,7 @@ def set_random_seed(seed):
 
 def load_ref_img(img_path, contrast=2., add_noise=False, noise_value=0.05):
     img = Image.open(img_path).resize((H, W))
+    img = img.convert("RGB")
     img = torchvision.transforms.ColorJitter(contrast=(contrast, contrast))(img)
     img = np.array(img)
     if len(img.shape) == 2:
