@@ -54,3 +54,16 @@ We also provide a jupyter notebook demo code for ease of visualization, please o
 <pre><code>
 jupyter notebook demo.ipynb
 </code></pre>
+
+# Citation #
+<pre>
+<code>
+@inproceedings{gao2025ptdiffusion,
+  title={PTDiffusion: Free Lunch for Generating Optical Illusion Hidden Pictures with Phase-Transferred Diffusion Model},
+  author={Gao, Xiang and Yang, Shuai and Liu, JiaYing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025},
+  organization={IEEE}
+}
+</code>
+</pre>
