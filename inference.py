@@ -45,8 +45,8 @@ def load_ref_img(img_path, contrast=2., add_noise=False, noise_value=0.05):
 
 
 def inversion(img_tensor):
-    if os.path.exists('latent.py'):
-        os.remove('latent.py')
+    if os.path.exists('latent.pt'):
+        os.remove('latent.pt')
     encoder_posterior = model.encode_first_stage(img_tensor)
     z = model.get_first_stage_encoding(encoder_posterior).detach()
     un_cond = {"c_crossattn": [model.get_learned_conditioning([''])]}
