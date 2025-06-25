@@ -61,7 +61,7 @@ jupyter notebook demo.ipynb
 @inproceedings{gao2025ptdiffusion,
   title={PTDiffusion: Free Lunch for Generating Optical Illusion Hidden Pictures with Phase-Transferred Diffusion Model},
   author={Gao, Xiang and Yang, Shuai and Liu, Jiaying},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={18240--18249},
   year={2025}
 }
