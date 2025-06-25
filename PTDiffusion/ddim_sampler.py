@@ -438,7 +438,7 @@ class DDIM_Sampler(object):
         timesteps = self.ddim_timesteps
         time_range = timesteps[:t_inv]
         total_steps = timesteps.shape[0]
-        print(f"Running DDIM Sampling with {total_steps} timesteps")
+        print(f"Running DDIM inversion with {total_steps} timesteps")
 
         iterator = tqdm(time_range, desc='Decoding image', total=total_steps)
         x_dec = x0
